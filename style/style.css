@@ -1,0 +1,90 @@
+ *{
+        font-family: "Poppins", serif;
+        font-weight: 100;
+        font-style: normal;
+ }
+.my-sc-font{
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+body{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.donate{
+    text-align: center;
+}
+.donate-title{
+    font-weight: bold;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+    margin-top: 130px;
+}
+.donate-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+.cotainar{
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+}
+.donate-sub-title{
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.containat{
+    font-weight: bold;
+    font-size: 30px;
+    color: #707070;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    padding: 43px 24px;
+}
+.containat-1{
+    font-weight: bold;
+    font-size: 30px;
+    color: #FF5959;
+    border-radius: 5px;
+    background-color: #FFEEEE;
+    padding: 43px 24px;
+}
+.btn{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF5959;
+    border-radius: 5px;
+    padding: 16px 20px;
+    border: none;
+    margin-top: 30px;
+}
+hr{
+    margin-right: 337px;
+    margin-left: 338px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .cotainar{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .cotainar{
+        flex-direction: column;
+    }
+}
