@@ -15,18 +15,30 @@ body{
 .donate{
     text-align: center;
 }
+
 .donate-title{
     font-weight: bold;
     font-size: 45px;
     color: #121212;
+   
+}.mg-4{
+    margin-bottom: 30px;
+}
+.mg-3{
+    margin-bottom: 20px;
+}
+.mg-1{
     margin-bottom: 20px;
     margin-top: 130px;
+}
+.mg-2{
+    margin-bottom: 50px;
 }
 .donate-description{
     font-weight: 400;
     font-size: 18px;
     color: #707070;
-    margin-bottom: 50px;
+   
 }
 .containar{
     display: flex;
@@ -104,18 +116,27 @@ hr{
     color: #707070;
     margin-bottom: 54px;
 }
+/* lives sytyle */
+.lives{
+    display: flex;
+    gap: 83px;
+}
+.lives-img{
+    margin-right: 97px;
+    margin-bottom: 152px;
+}
 
 
 
 
 
 @media screen and (max-width:576px) {
-    .containar, .plan-containar{
+    .containar, .plan-containar, .lives {
         flex-direction: column;
     }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
-    .containar, .plan-containar{
+    .containar, .plan-containar, .lives{
         flex-direction: column;
     }
 }
