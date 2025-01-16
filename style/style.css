@@ -15,13 +15,12 @@ body{
 .donate{
     text-align: center;
 }
-
 .donate-title{
     font-weight: bold;
     font-size: 45px;
-    color: #121212;
-   
-}.mg-4{
+    color: #121212; 
+}
+.mg-4{
     margin-bottom: 30px;
 }
 .mg-3{
@@ -38,7 +37,6 @@ body{
     font-weight: 400;
     font-size: 18px;
     color: #707070;
-   
 }
 .containar{
     display: flex;
@@ -86,7 +84,6 @@ hr{
 .plan-containar{
     display: flex;
     gap: 24px;
-    margin-bottom: 130px;
 }
 .plan-containt-1{
     border-radius: 5px;
@@ -121,22 +118,43 @@ hr{
     display: flex;
     gap: 83px;
 }
-.lives-img{
-    margin-right: 97px;
-    margin-bottom: 152px;
+.lives img{
+        margin-top: 130px;
+        margin-right: 97px;
+        margin-bottom: 152px;
 }
-
+.lives-containt{
+    margin-top: 182px;
+    margin-bottom: 151px;
+}
+/* need style */
+.need{
+    display: flex;
+    gap: 94px;
+}
+.need-img{
+    margin-bottom: 130px;
+}
+.need-containt{
+    margin-right: 22px;
+}
 
 
 
 
 @media screen and (max-width:576px) {
-    .containar, .plan-containar, .lives {
+    .containar, .plan-containar, .lives, .need {
         flex-direction: column;
+    }
+    .need{
+        flex-direction: column-reverse;
     }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
-    .containar, .plan-containar, .lives{
+    .containar, .plan-containar, .lives, .need{
         flex-direction: column;
+    }
+    .need{
+        flex-direction: column-reverse;
     }
 }
